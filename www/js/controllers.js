@@ -51,9 +51,6 @@ function PracticeCtrl($scope, $routeParams){
         	navigator.geolocation.getCurrentPosition(onSuccess, onError);
     	},3000);	
     }
-    
-    
-	$scope.startPractice();
 }
 
 
