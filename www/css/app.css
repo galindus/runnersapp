@@ -22,11 +22,11 @@ div{
 }
 
 #home{
-  background: url('/img/monoicons/home32.png') no-repeat center center;  
+  background: url('../img/monoicons/home32.png') no-repeat center center;  
 }
 
 #practice{
-  background: url('/img/monoicons/gear32.png') no-repeat center center;
+  background: url('../img/monoicons/gear32.png') no-repeat center center;
 }
 
 .leave-setup, .enter-setup {

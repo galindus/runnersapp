@@ -3,10 +3,10 @@ var runners = angular.module('runnersApp', []).
 		//use animation		
 		$routeProvider.
 			when('/practice', {
-				templateUrl: 'partials/practice.html', 
+				templateUrl: '../partials/practice.html', 
 				controller: PracticeCtrl}).
 			when('/home', {
-				templateUrl: 'partials/home.html', 
+				templateUrl: '../partials/home.html', 
 				controller: HomeCtrl}
 			).
 			otherwise({redirectTo: '/home'});
